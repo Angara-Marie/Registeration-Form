@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    background: linear-gradient(115deg,#ddbb7b 10%,#e78db3 90%);
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: #dfad51;
+    width:400px;
+    height: 500px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+img{
+    width :400px;
+    height: 300px;
+}
+.box1 header{
+     font-family: 'Pacifico', cursive;;
+     margin-top: 5%;
+}
+.box1 p{
+    font-size: 9px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.landing{
+    margin-left: 10%;
+}
+.box2{
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    /* text-align: center;
+    justify-content: center; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box2 header{
+    text-align: right;
+    font-size: 10px;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+.box2 header a{
+    text-decoration: none;
+}
+.signup{
+    margin-left: 10px;
+}
+form{
+    margin-left: 90px;
+}
+.top{
+    display: flex;
+    font: size 15px;
+}
+.signup h2{
+    font-size: 20px;
+}
+.username{
+    margin-left: 5px;
+}
+.name label{
+    display: block;
+    font-size: 15px;
+}
+.username label{
+    display: block;
+    font-size: 15px;
+}
+.address label{
+    display: block;
+    font-size: 15px;
+}
+.password label{
+    display: block;
+    font-size: 15px;
+}
+
+button{
+    background-color: rgb(103, 103, 241);
+    color: white;
+    border-radius: 5px;
+    height: 32px;
+    width: 300px;
+}
+.icons{
+    display: flex;
+    margin-right: 10%;
+}
+.user{
+    margin-right: 30%;
+}
+.account{
+    background-color: rgb(212, 16, 163);
+}
+.checkbox{
+    color: grey;
+}
+.row span{
+    font-size: 15px;
+}
+.row span a{
+    text-decoration: none;
+}
+.site{
+    font-size:15px
+}
+.site a{
+    text-decoration: none;
+}
